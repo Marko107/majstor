@@ -1,0 +1,22 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Full-screen flex container */
+.flex-container {
+  display: flex;
+  justify-content: center;  /* Horizontally centers the image */
+  align-items: center;      /* Vertically centers the image */
+  height: 100vh;            /* Full viewport height */
+  width: 100vw;             /* Full viewport width */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;         /* Ensures no scrollbars */
+}
+
+/* Image class to ensure resizing */
+.imf {
+  max-width: 100%;          /* Ensures image does not overflow horizontally */
+  max-height: 100%;         /* Ensures image does not overflow vertically */
+}
